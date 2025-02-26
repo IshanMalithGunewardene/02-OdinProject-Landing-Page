@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+body>* {
+    max-width: 1440px;
+    padding: 0 10rem;
+}
+
+.section.Top__gredient__background {
+    background: radial-gradient(circle, #A62DD4, #4D067C);
+    height: 540px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 100px;
+    height: auto;
+    padding: 10px 0;
+}
+
+/* Navigation Bar */
+nav {
+    /* border: 1px solid #ff0000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    /* border: 1px solid #5fff51; */
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px
+}
+
+/* Main content */
+/* Hero section */
+.hero {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hero__title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    max-width: 70%;
+}
+
+.hero__description {
+    max-width: 400px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.hero__cta {
+    margin-top: 47px;
+}
+
+.hero__button {
+    background-color: #3882F6;
+    color: #ffffff;
+    width: 220px;
+    height: 60px;
+    border-style: none;
+}
+
+.hero__image {
+    width: auto;
+    height: 534px;
+    position: absolute;
+    top: 12%;
+    left: 56%;
+}
+
+/* Article or content section */
+.cards__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 69px;
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    width: 30%;
+    height: 400px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.card__image {
+    width: auto;
+    height: 100%;
+}
+
+.card__image.img-02 {
+    transform: translateX(-177px) translateY(0px);
+
+}
+
+/* info mid gredient section */
+
+.Mid__gredient__background {
+    background: radial-gradient(circle, #A62DD4, #4D067C);
+    height: 540px;
+    width: 100%;
+    margin-top: 10%;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+
+.info__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+    gap: 3rem;
+   
+
+}
+.info__image{
+    width: auto;
+    height: 482px;
+    /* position: absolute;
+    top: 179%;
+    left: 6%; */
+}
+
+
+.info{
+    margin: 32px 0 0 138px;
+    
+}
+
+.info__title, .info__description{
+    margin-bottom: 33px;
+    color: #ffffff;
+}
+.info__title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.info__description{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.info__button{
+    background-color: #3882F6;
+    color: #ffffff;
+    width: 220px;
+    height: 60px;
+    border-style: none;
+}
+
+.cta__container{
+    background-color: #3882F6;
+    color: #ffffff;
+    width: 95%;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    margin: 69px 0 20px 51px;
+    border-radius: 10px;
+    
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 7rem;
+}
+
+.cta__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    color: #ffffff;
+    width: 131px;
+    height: 39px;
+}
+
+/* Footer section */
+.footer{
+    background-color: #4D067C;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: -1;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+/* External JavaScript (loaded at the end for performance) */
